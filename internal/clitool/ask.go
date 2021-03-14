@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dimkouv/massivedl/internal/sliceutil"
+	"massivedl/internal/sliceutil"
 )
 
 // AskUserBool asks a true/false question with text defined in msg and returns the result that was read from in.

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dimkouv/massivedl/internal/logging"
+	"massivedl/internal/logging"
 )
 
 // Statistics - statistics about the downloads

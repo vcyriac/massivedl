@@ -16,13 +16,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dimkouv/massivedl/internal/logging"
+	"massivedl/internal/logging"
 
-	"github.com/dimkouv/massivedl/internal/clitool"
+	"massivedl/internal/clitool"
 
-	"github.com/dimkouv/massivedl/internal/fileutil"
-	"github.com/dimkouv/massivedl/internal/statistics"
-	"github.com/dimkouv/massivedl/internal/timeutil"
+	"massivedl/internal/fileutil"
+	"massivedl/internal/statistics"
+	"massivedl/internal/timeutil"
 )
 
 // a dataEntry has the required information to download a file

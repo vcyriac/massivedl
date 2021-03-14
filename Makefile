@@ -7,7 +7,7 @@ LDFLAGS = " \
 	-X main.Githash=$(GITHASH) \
 "
 
-all: massivedl_linux_amd64 massivedl_win_amd64.exe massivedl_darwin_amd64
+all: massivedl_darwin_amd64
 
 massivedl_linux_amd64: cmd/* internal/*
 	env GOOS=linux GOARCH=amd64 \
